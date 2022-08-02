@@ -45,6 +45,7 @@ public class TelaListagem extends JFrame {
 	JFrame frame;
 
 	public TelaListagem() {
+		setResizable(false);
 		setBackground(Color.WHITE);
 		setFont(new Font("Century Gothic", Font.BOLD, 12));
 		setTitle("Listagem");
