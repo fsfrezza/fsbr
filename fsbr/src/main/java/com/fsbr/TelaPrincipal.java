@@ -30,6 +30,7 @@ public class TelaPrincipal extends JFrame {
 	private static final long serialVersionUID = -7436678802955667838L;
 
 	public TelaPrincipal() {
+		setResizable(false);
 		setFont(new Font("Century Gothic", Font.BOLD, 12));
 		setTitle("Cadastramento");
 
