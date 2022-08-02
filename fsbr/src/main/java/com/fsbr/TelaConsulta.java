@@ -37,6 +37,7 @@ public class TelaConsulta extends JFrame {
 	private static JTextField textCpfBusca;
 
 	public TelaConsulta() {
+		setResizable(false);
 		setFont(new Font("Century Gothic", Font.BOLD, 12));
 		setTitle("Consulta");
 
