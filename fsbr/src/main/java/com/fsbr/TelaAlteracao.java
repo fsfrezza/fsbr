@@ -47,6 +47,7 @@ public class TelaAlteracao extends JFrame {
 	private JFrame frame;
 
 	public TelaAlteracao() {
+		setResizable(false);
 		setFont(new Font("Century Gothic", Font.BOLD, 12));
 		setTitle("Alteração");
 		frame = this;
