@@ -39,6 +39,7 @@ public class TelaInclusao extends JFrame {
 	private JFrame frame;
 
 	public TelaInclusao() {
+		setResizable(false);
 		setFont(new Font("Century Gothic", Font.BOLD, 12));
 		setTitle("Inclusão");
 		frame = this;
