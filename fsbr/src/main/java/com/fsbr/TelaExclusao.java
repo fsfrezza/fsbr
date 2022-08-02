@@ -40,6 +40,7 @@ public class TelaExclusao extends JFrame {
 	private JFrame frame;
 
 	public TelaExclusao() {
+		setResizable(false);
 		setFont(new Font("Century Gothic", Font.BOLD, 12));
 		setTitle("Exclusão");
 		frame = this;
